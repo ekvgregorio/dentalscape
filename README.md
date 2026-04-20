@@ -107,9 +107,9 @@ Secretary:
 - Cloud backup integration (Firebase / replication)
 
 ## Authors
-- Therence Hilcee Defanter – Project Manager / Documentation Head
+- Therence Hilcee Defante – Project Manager / Documentation Head
 - Ericka Kate Gregorio – Software Developer
-- Chery Nicole Pastillposo – Documentation Specialist
+- Chery Nicole Pastilloso – Documentation Specialist
 
 ## License
 This project is for educational and academic purposes only.
