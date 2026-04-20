@@ -1,0 +1,78 @@
+
+  .toast-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+
+    .toast {
+      min-width: 300px;
+      border-radius: 8px;
+      padding: 15px 20px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      animation: slideIn 0.5s ease-in-out;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      transition: opacity 0.5s ease-in-out;
+  }
+
+  .toast-content {
+      display: flex;
+      align-items: center;
+  }
+
+  .toast-icon {
+      margin-right: 12px;
+  }
+
+  .toast-success {
+      background-color: #28a745;
+      color: white;
+  }
+
+  .toast-error {
+      background-color: #dc3545;
+      color: white;
+  }
+
+  .toast-close {
+      background: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+      opacity: 0.7;
+      transition: opacity 0.2s;
+  }
+
+  .toast-close:hover {
+      opacity: 1;
+  }
+
+  @keyframes slideIn {
+      from {
+          transform: translateX(100%);
+          opacity: 0;
+      }
+      to {
+          transform: translateX(0);
+          opacity: 1;
+      }
+  }
+    .status-badge {
+        display: inline-block;
+        padding: 5px 12px; 
+        font-size: 12px; 
+        height: 30px; 
+        width: 80px;
+        text-align: center;
+        border-radius: 20px;
+        line-height: 18px;
+        margin-top: 3px;
+    }
+
+    .status-login {
+    background-color: green;
+}
