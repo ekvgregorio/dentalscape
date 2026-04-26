@@ -111,6 +111,9 @@ Secretary:
 - Ericka Kate Gregorio – Software Developer
 - Chery Nicole Pastilloso – Documentation Specialist
 
+## Documentation
+View Full Documentation - DentalScape Digital Health Records and Appointment System - final document.pdf
+
 ## License
 This project is for educational and academic purposes only.
 
